@@ -1,0 +1,61 @@
+{
+    'training': True,
+    '_parameters': OrderedDict
+        (
+            [
+                (
+                    'weight', Parameter containing:
+                        tensor(
+                            [1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
+                            requires_grad=True
+                        )
+                ),
+                (
+                    'bias', Parameter containing:
+                        tensor(
+                            [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+                            requires_grad=True
+                        )
+                )
+            ]
+        ),
+    '_buffers': OrderedDict
+        (
+            [
+                (
+                    'running_mean',
+                    tensor(
+                        [0.0423, 0.0434, 0.0523, 0.0434, 0.0511, 0.0467, 0.0468, 0.0523, 0.0455, 0.0560, 0.0493, 0.0551, 0.0526, 0.0490, 0.0452, 0.0461]
+                    )
+                ),
+                (
+                    'running_var',
+                    tensor(
+                        [0.9081, 0.9081, 0.9081, 0.9080, 0.9082, 0.9102, 0.9070, 0.9085, 0.9102, 0.9110, 0.9091, 0.9101, 0.9080, 0.9085, 0.9060, 0.9071]
+                    )
+                ),
+                (
+                    'num_batches_tracked',
+                     tensor(1)
+                )
+            ]
+        ),
+    '_non_persistent_buffers_set': set(),
+    '_backward_pre_hooks': OrderedDict(),
+    '_backward_hooks': OrderedDict(),
+    '_is_full_backward_hook': None,
+    '_forward_hooks': OrderedDict(),
+    '_forward_hooks_with_kwargs': OrderedDict(),
+    '_forward_pre_hooks': OrderedDict(),
+    '_forward_pre_hooks_with_kwargs': OrderedDict(),
+    '_state_dict_hooks': OrderedDict(),
+    '_state_dict_pre_hooks': OrderedDict(),
+    '_load_state_dict_pre_hooks': OrderedDict(),
+    '_load_state_dict_post_hooks': OrderedDict(),
+    '_modules': OrderedDict(),
+    'num_features': 16,
+    'eps': 1e-05,
+    'momentum': 0.1,
+    'affine': True,
+    'track_running_stats': True
+}
